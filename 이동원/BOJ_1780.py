@@ -6,6 +6,7 @@ def check(row, col, num, paper):
                 return False
     return True
 
+#divide
 def divide(row, col, num, paper, result):
     if check(row, col, num, paper):
         result[paper[row][col]] += 1
